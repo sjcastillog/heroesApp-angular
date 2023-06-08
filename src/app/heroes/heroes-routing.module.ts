@@ -21,12 +21,12 @@ const routes: Routes = [
           component: SearchPageComponent,
         },
         {
-          path:'edit/:id',
-          component: NewPageComponent,
-        },
-        {
           path:'list',
           component: ListPageComponent,
+        },
+        {
+          path:'edit/:id',
+          component: NewPageComponent,
         },
         {
           path:':id',
@@ -39,7 +39,7 @@ const routes: Routes = [
       ]
   }
 ];
-
+ 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
