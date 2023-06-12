@@ -26,7 +26,7 @@ const routes: Routes = [
         },
         {
           path:'edit/:id',
-          component: NewPageComponent,
+          component: HeroPageComponent,
         },
         {
           path:':id',
